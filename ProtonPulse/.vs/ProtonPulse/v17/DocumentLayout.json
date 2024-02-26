@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA752C0-6098-452F-B1F4-618D72839267}|ProtonPulse\\ProtonPulse.csproj|c:\\users\\sky\\desktop\\coding\\csharpprojects\\protonpulse\\protonpulse\\protonpulse\\protonpulse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DFA752C0-6098-452F-B1F4-618D72839267}|ProtonPulse\\ProtonPulse.csproj|solutionrelative:protonpulse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA752C0-6098-452F-B1F4-618D72839267}|ProtonPulse\\ProtonPulse.csproj|c:\\users\\sky\\desktop\\coding\\csharpprojects\\protonpulse\\protonpulse\\protonpulse\\protonpulse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA752C0-6098-452F-B1F4-618D72839267}|ProtonPulse\\ProtonPulse.csproj|solutionrelative:protonpulse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA752C0-6098-452F-B1F4-618D72839267}|ProtonPulse\\ProtonPulse.csproj|c:\\users\\sky\\desktop\\coding\\csharpprojects\\protonpulse\\protonpulse\\protonpulse\\protonpulse\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA752C0-6098-452F-B1F4-618D72839267}|ProtonPulse\\ProtonPulse.csproj|solutionrelative:protonpulse\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\ProtonPulse\\Form1.cs",
+              "RelativeDocumentMoniker": "ProtonPulse\\Form1.cs",
+              "ToolTip": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\ProtonPulse\\Form1.cs",
+              "RelativeToolTip": "ProtonPulse\\Form1.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAkwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T06:25:27.854Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\ProtonPulse\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ProtonPulse\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\ProtonPulse\\Form1.Designer.cs",
+              "RelativeToolTip": "ProtonPulse\\Form1.Designer.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwLgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T03:10:16.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\ProtonPulse\\Form1.cs",
+              "RelativeDocumentMoniker": "ProtonPulse\\Form1.cs",
+              "ToolTip": "C:\\Users\\SKY\\Desktop\\Coding\\CSharpProjects\\ProtonPulse\\ProtonPulse\\ProtonPulse\\ProtonPulse\\Form1.cs [Design]",
+              "RelativeToolTip": "ProtonPulse\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T09:27:08.945Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
