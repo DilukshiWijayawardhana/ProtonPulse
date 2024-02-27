@@ -9,6 +9,7 @@ namespace ProtonPulse
         public Form1()
         {
             InitializeComponent();
+
         }
 
 
@@ -53,7 +54,6 @@ namespace ProtonPulse
             con.Close();
             BindData();
         }
-
 
 
     }

@@ -23,3 +23,4 @@ C:\Users\SKY\Desktop\Coding\CSharpProjects\ProtonPulse\ProtonPulse\ProtonPulse\P
 C:\Users\SKY\Desktop\Coding\CSharpProjects\ProtonPulse\ProtonPulse\ProtonPulse\ProtonPulse\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\SKY\Desktop\Coding\CSharpProjects\ProtonPulse\ProtonPulse\ProtonPulse\ProtonPulse\obj\Debug\net8.0-windows\ProtonPulse.csproj.AssemblyReference.cache
 C:\Users\SKY\Desktop\Coding\CSharpProjects\ProtonPulse\ProtonPulse\ProtonPulse\ProtonPulse\obj\Debug\net8.0-windows\ProtonPu.A14489B3.Up2Date
+C:\Users\SKY\Desktop\Coding\CSharpProjects\ProtonPulse\ProtonPulse\ProtonPulse\ProtonPulse\obj\Debug\net8.0-windows\ProtonPulse.Properties.Resources.resources
