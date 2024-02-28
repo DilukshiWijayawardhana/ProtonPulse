@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProtonPulse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03d7a552420d330f0b74a41e2db7ef93ab9fc8b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fe662bbfbedada8b104df251ef2aca34904885a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProtonPulse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProtonPulse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

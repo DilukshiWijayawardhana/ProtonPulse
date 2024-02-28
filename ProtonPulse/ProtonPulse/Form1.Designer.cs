@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
@@ -52,6 +52,8 @@
             label9 = new Label();
             textBox6 = new TextBox();
             button1 = new Button();
+            textBox7 = new TextBox();
+            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -148,7 +150,7 @@
             Insert.BackColor = Color.FromArgb(128, 255, 255);
             Insert.Font = new Font("Segoe UI", 14F);
             Insert.ForeColor = SystemColors.InactiveCaptionText;
-            Insert.Location = new Point(46, 570);
+            Insert.Location = new Point(53, 619);
             Insert.Name = "Insert";
             Insert.Size = new Size(126, 48);
             Insert.TabIndex = 11;
@@ -159,15 +161,15 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.InactiveCaptionText;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
-            dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            dataGridView1.Location = new Point(95, 638);
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.InactiveCaptionText;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ButtonHighlight;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridView1.Location = new Point(95, 688);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1173, 390);
@@ -179,7 +181,7 @@
             update.BackColor = Color.Thistle;
             update.Font = new Font("Segoe UI", 14F);
             update.ForeColor = SystemColors.InactiveCaptionText;
-            update.Location = new Point(202, 570);
+            update.Location = new Point(201, 619);
             update.Name = "update";
             update.Size = new Size(126, 48);
             update.TabIndex = 13;
@@ -200,7 +202,7 @@
             // textBox4
             // 
             textBox4.Font = new Font("Segoe UI", 13F);
-            textBox4.Location = new Point(237, 443);
+            textBox4.Location = new Point(237, 383);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(379, 36);
             textBox4.TabIndex = 15;
@@ -219,16 +221,16 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox1.Location = new Point(732, 90);
+            pictureBox1.Location = new Point(645, 90);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(600, 865);
+            pictureBox1.Size = new Size(623, 805);
             pictureBox1.TabIndex = 19;
             pictureBox1.TabStop = false;
             // 
             // textBox5
             // 
             textBox5.Font = new Font("Segoe UI", 13F);
-            textBox5.Location = new Point(237, 381);
+            textBox5.Location = new Point(237, 445);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(379, 36);
             textBox5.TabIndex = 20;
@@ -265,7 +267,7 @@
             // textBox6
             // 
             textBox6.Font = new Font("Segoe UI", 13F);
-            textBox6.Location = new Point(237, 498);
+            textBox6.Location = new Point(237, 502);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(379, 36);
             textBox6.TabIndex = 24;
@@ -275,12 +277,30 @@
             button1.BackColor = Color.Thistle;
             button1.Font = new Font("Segoe UI", 14F);
             button1.ForeColor = SystemColors.InactiveCaptionText;
-            button1.Location = new Point(490, 570);
+            button1.Location = new Point(490, 619);
             button1.Name = "button1";
             button1.Size = new Size(126, 48);
             button1.TabIndex = 25;
             button1.Text = "UPDATE";
             button1.UseVisualStyleBackColor = false;
+            // 
+            // textBox7
+            // 
+            textBox7.Font = new Font("Segoe UI", 13F);
+            textBox7.Location = new Point(237, 559);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(379, 36);
+            textBox7.TabIndex = 26;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 14F);
+            label10.Location = new Point(46, 559);
+            label10.Name = "label10";
+            label10.Size = new Size(120, 32);
+            label10.TabIndex = 27;
+            label10.Text = "Item Price";
             // 
             // Form1
             // 
@@ -289,6 +309,8 @@
             BackColor = Color.LightSeaGreen;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1313, 961);
+            Controls.Add(label10);
+            Controls.Add(textBox7);
             Controls.Add(button1);
             Controls.Add(textBox6);
             Controls.Add(label9);
@@ -346,5 +368,7 @@
         private Label label9;
         private TextBox textBox6;
         private Button button1;
+        private TextBox textBox7;
+        private Label label10;
     }
 }

@@ -18,7 +18,7 @@ namespace ProtonPulse
         {
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-62LOP5H\\SQLEXPRESS;Initial Catalog=ProductDB;Persist Security Info=True;User ID=sa;Password=indu123;Encrypt=False");
             con.Open();
-            SqlCommand command = new SqlCommand("insert into ProductInfoTable values ('" + int.Parse(textBox1.Text) + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "', getdate())", con);
+            SqlCommand command = new SqlCommand("insert into ProductInfoTable values ('" + int.Parse(textBox1.Text) + "','" + textBox2.Text + "','" + textBox3.Text + "','" + comboBox1.Text + "','" + DateTime.Parse(dateTimePicker1.Text)+ "','" + int.Parse(textBox4.Text) + "','"+textBox5.Text+"','"+textBox6.Text+"','"+int.Parse(textBox7.Text)+"'", con);
 
             MessageBox.Show("Successfully Inserted");
             con.Close();
@@ -48,7 +48,7 @@ namespace ProtonPulse
             string connectionString = "Data Source=DESKTOP-62LOP5H\\SQLEXPRESS;Initial Catalog=ProductDB;Persist Security Info=True;User ID=sa;Password=indu123;Encrypt=False";
             SqlConnection con = new SqlConnection(connectionString);
             con.Open();
-            SqlCommand cmd = new SqlCommand("update ProductInfoTable set ItemName = '" + textBox2.Text + "', Design = '" + textBox3.Text + "', Color = '" + comboBox1.Text + "', UpdatedDate = GETDATE() where ProductID = " + int.Parse(textBox1.Text), con);
+            SqlCommand cmd = new SqlCommand("update ProductInfoTable set ItemName = '" + textBox2.Text + "', Design = '" + textBox3.Text + "', Color = '" + comboBox1.Text + "', Date = '"+DateTime.Parse(dateTimePicker1.Text)+"', StockSize = '"+textBox4.Text+"',ContactNumber = '"+textBox5.Text+"',Gmail = '"+textBox6.Text+"',ItemPrice = '"+textBox7.Text+"' where ProductID = " + int.Parse(textBox1.Text), con);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Successfully Updated");
             con.Close();
